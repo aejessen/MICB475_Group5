@@ -12,3 +12,4 @@ Must have agenda for next meeting created by us.
    - Looking at the microbiomes of infants with anemia delivered via C section or vaginal birth (Note: will have to combine data sets)
 2. Is this feasible? Have other teams done this before?
 3. Discuss team proposal plans
+4. Ask Evelyn about documentation procedures
