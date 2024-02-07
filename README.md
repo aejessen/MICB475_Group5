@@ -14,19 +14,21 @@ Must have agenda for next meeting created by us.
 3. Discuss team proposal plans
 4. Ask Evelyn about documentation procedures
 
-Notes: 
-- Looking at the relationship between stunted/non-stunted in anemic vs. healthy children
+# 7 Feb 2024 Meeting Minutes
+Among our ideas, we chose to look at the relationship between stunted/non-stunted in anemic vs. healthy children
+Current data set sample size:
      - Anemia: 22 stunted vs 84 normal
      - Healthy: 8 stunted v 75 normal
-- Step 1: Make a new metadata file with a new column that combines anemia and stunting
+- Aim 1: Make a new metadata file with a new column that combines anemia and stunting
       - Missing data? --> probably keep it in there as N/A --> can get rid of it in R later
-- Step 2: Qiime2 processing of the new metadata file --> upload to the server
+- Aim 2: Qiime2 processing of the new metadata file --> upload to the server
      - she will give us team credentials
-- Step 3: Alpha/beta diversity in Qiime/R --> need R for publishing
-- Step 4: Core microbiome to compare between different states
-- Step 5: Indicator taxa analysis --> microbes predictive of a disease state
-- Step 6 (kind of aside): Perhaps add logistic regression to determine the likelihood of being stunted if you have anemia
-      - can be done in parallel
+- Aim 3: Alpha/beta diversity in Qiime/R --> need R for publishing
+- Aim 4: Core microbiome to compare between different states
+- Aim 5: Indicator taxa analysis --> microbes predictive of a disease state
+- Aim 6 (can be done parallel): Logistic regression to determine the correlation of stunting and anemia presence
+
+Proposal-relevant items:
 - Have to do the initial processing stuff before the proposal --> make the metadata file
       - Steps 1/2 will be done for the proposal
 - Make a Qiime2 folder and R folder --> sort files into them and Command line code (make this a .sh file)
