@@ -37,3 +37,13 @@ Proposal-relevant items:
 Action Items: 
 - Proposal planning --> generate some .qzv files and such
 - Initial processing to make the new metadata file
+
+# 12 Feb 2024 Meeting Minutes
+1. Respond to Simanpreet with Github link and research question
+2. Another paper found no association between prevalence of stunting and anemia in infant, so discuss feasibility of logistic regression (aim #6) with Dr. Sun (note: they did not look into the microbiome)
+3.    May work for our dataset since we include 6 month infants, just not 12 months (as the original paper)
+4. Divy up the team proposal
+5.   Ask about alpha and beta diversity - what tests to choose?
+6.   Hypothesis will need to be changed as we go on -> create the most basic question we can ask and then re-adjust as we do research
+7. References: use comments to indicate where our references are
+8.    Can't go alphabetical for ASM
