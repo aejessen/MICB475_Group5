@@ -47,3 +47,11 @@ Action Items:
 6.   Hypothesis will need to be changed as we go on -> create the most basic question we can ask and then re-adjust as we do research
 7. References: use comments to indicate where our references are
 8.    Can't go alphabetical for ASM
+
+
+# 14 Feb 2024 Meeting Agenda
+- talk to Dr. Sun about aim #6
+-    paper found no association at 12 months.... 6 months vs 12 months?
+- what alpha and beta diversity test do we use for aim #3?
+- go over our preliminary data
+- ask about timeline of this project and how much planning each stage will take
