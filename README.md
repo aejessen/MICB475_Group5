@@ -49,9 +49,27 @@ Action Items:
 8.    Can't go alphabetical for ASM
 
 
-# 14 Feb 2024 Meeting Agenda
+# 14 Feb 2024 
+Meeting Agenda
 - talk to Dr. Sun about aim #6
 -    paper found no association at 12 months.... 6 months vs 12 months?
 - what alpha and beta diversity test do we use for aim #3?
 - go over our preliminary data
 - ask about timeline of this project and how much planning each stage will take
+
+Meeting Minutes
+- Probably just proceed with the logistical regression... leave it for last and we can see if it is necessary
+- Metadata is done --> on GitHub!
+   - Non-Stunted Anemic= 84, Non-Stunted Healthy = 75, Stunted Anemic = 22, Stunted Healthy = 8
+- Run all alpha/beta diversity tests --> some will be helpful, some will not
+   - Generate in qiime first and then once we know which will go in the paper, re-do it in R
+   - Filter mitco/chloro and NAs in either R or qiime --> depends what we want
+- Not super picky about the timeline --> maybe be a little generous
+- Do not include diversity metrics in proposal --> go up to alpha rarefaction curve
+- Do not use the repetitive proposal model
+- Rareify so that we do not lose the stunted healthy group --> treat as the limiting factor (want at least 5)
+   - Reach out to teaching team to check things over
+- Output of logistic regression == odds ratio --> table w/ p-values telling us whether group x has a higher likelihood of getting anemia + how many times more likely it is
+- Starting giving a little progress report before the agenda so they know what we have done!!
+- Generate alpha and beta diversity figures before next meeting (when we come back from reading break)
+  
