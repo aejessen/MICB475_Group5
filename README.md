@@ -73,7 +73,7 @@ Meeting Minutes
 - Starting giving a little progress report before the agenda so they know what we have done!!
 - Generate alpha and beta diversity figures before next meeting (when we come back from reading break)
 
-  # 27 Feb 2024 
+# 27 Feb 2024 
 Meeting Agenda
 - discuss the alpha and beta diversity analyses that were performed
    - few significant differences were found
