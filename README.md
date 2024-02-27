@@ -74,6 +74,9 @@ Meeting Minutes
 - Generate alpha and beta diversity figures before next meeting (when we come back from reading break)
 
 # 27 Feb 2024 
+Weekly Update
+- Finished proposal!
+- Completed alpha and beta diversity tests
 Meeting Agenda
 - discuss the alpha and beta diversity analyses that were performed
    - few significant differences were found
