@@ -72,4 +72,11 @@ Meeting Minutes
 - Output of logistic regression == odds ratio --> table w/ p-values telling us whether group x has a higher likelihood of getting anemia + how many times more likely it is
 - Starting giving a little progress report before the agenda so they know what we have done!!
 - Generate alpha and beta diversity figures before next meeting (when we come back from reading break)
-  
+
+  # 27 Feb 2024 
+Meeting Agenda
+- discuss the alpha and beta diversity analyses that were performed
+   - few significant differences were found
+- determine what analyses we should move forward with based on the diversity analyses
+   - picrust2
+   - excluding certain factors
