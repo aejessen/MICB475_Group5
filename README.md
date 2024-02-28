@@ -83,3 +83,17 @@ Meeting Agenda
 - determine what analyses we should move forward with based on the diversity analyses
    - picrust2
    - excluding certain factors
+Meeting Notes
+- Going over the alpha/beta diversity results...
+   - nothing is significant:/
+   - Simran thinks that we can re-do this analysis to only look at stunted/non-stunted (start with simplest)
+   - Other studies have not found significance between anemic/non-anemic
+   - The two categories do not have to be exclusive
+        - Look at anemic vs non-anemic, stunted vs non-stunted --> do a differential abundance analysis 
+        - Maybe still include anemia at the end (mention how it was not carried forward bc of previous studies showing there was no difference) 
+   - pcoa plot could be helpful here --> regardless of VOI, we can use the dropdown to see if anything stands out
+   - maybe get going with the logistic regression --> she will give us the code
+   - For next meeting:
+        - do the logistic regression with stunting
+        - do stunted/non-stunted for alpha/beta
+        - pcoa plot
