@@ -97,3 +97,15 @@ Meeting Notes
         - do the logistic regression with stunting
         - do stunted/non-stunted for alpha/beta
         - pcoa plot
+    
+# 4 March 2024
+Weekly Update 
+- Completed the redone alpha and beta diversity tests (with stunted/non-stunted)
+- Created the pcoa plots
+- Completed the logistic regression --> 2.57x more likely to be stunted if anemic
+Meeting Agenda
+- Discuss diversity test results --> no significance
+   - What should we do from here?
+- Have a look at the pcoa plots
+- Discuss the logistic regression results
+  - Best way to visualize these? Forest plot? 
