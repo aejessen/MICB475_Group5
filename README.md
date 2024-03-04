@@ -103,6 +103,7 @@ Weekly Update
 - Completed the redone alpha and beta diversity tests (with stunted/non-stunted)
 - Created the pcoa plots
 - Completed the logistic regression --> 2.57x more likely to be stunted if anemic
+
 Meeting Agenda
 - Discuss diversity test results --> no significance
    - What should we do from here?
