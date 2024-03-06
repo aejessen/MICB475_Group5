@@ -111,3 +111,4 @@ Meeting Agenda
 - Discuss the logistic regression results
   - Best way to visualize these? Forest plot?
 - Discuss doing the revisions for the proposal
+- Discuss approach for manuscript (how we want to move through the sections, which sections should be done first->last, who wants to do what)
