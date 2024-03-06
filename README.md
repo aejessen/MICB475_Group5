@@ -109,4 +109,5 @@ Meeting Agenda
    - What should we do from here?
 - Have a look at the pcoa plots
 - Discuss the logistic regression results
-  - Best way to visualize these? Forest plot? 
+  - Best way to visualize these? Forest plot?
+- Discuss doing the revisions for the proposal
