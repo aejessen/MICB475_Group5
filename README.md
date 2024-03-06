@@ -123,6 +123,7 @@ Meeting Agenda
       - Jacquard: follows the same trend
       - Unifrac:
       - Weighted Unifrac: follows the same trend
+      - Dana already has the phyloseq object made, but will need to take NAs out & update with new metadata file
    - Alpha and beta diversity analysis:
       - Redid the same thing as last week, but looked at just stunted group for this week's analysis
       - Have not yet redone rarefaction curve
@@ -136,11 +137,15 @@ Meeting Agenda
       - Use old one if we cannot
     
 - Action Items:
-   - Redo stunting vs non-stunting comparison
-      - Change parameters by redoing rarefaction curve: decrease sampling depth since we are only looking at 2 variables
-         - Go with 16,888 sampling depth
-      - Redo alpha beta diversity analysis
-   - Core microbiome
-   - Indicator taxa
+   - Redo alpha beta diversity (Faith - will take max 1-2h on Friday morning)
+      - Change parameters by redoing rarefaction curve: decrease sampling depth to 16,888
+   - Redo rooted-tree and phyloseq, etc for going into phyloseq object (Alec - will work on it by Friday morning)
+   - Redo phyloseq object using new metadata file & take out NAs (Erica - will message group when done so Annie can do her part)
+      - anemia_phyloseq.zip -> contains all the inputs
+   - Core microbiome (Erica)
+   - Indicator taxa (Annie)
    - Differential abundance
-   - Get rid of NAs from our plots
+   - Proposal Revisions (Dana)
+ 
+- Most people will be working on it Friday it seems
+- Please move old files into "OLD" folder and working files into "WORKING"
