@@ -112,3 +112,35 @@ Meeting Agenda
   - Best way to visualize these? Forest plot?
 - Discuss doing the revisions for the proposal
 - Discuss approach for manuscript (how we want to move through the sections, which sections should be done first->last, who wants to do what)
+
+- # 6 March 2024 Meeting Minutes
+- Feedback from Proposal: Avril suggested that results were not novel enough, but we already did the analysis, so we should keep it in & consider adding another aim (e.g., differential abundance analysis)
+- Discussing the results from our alpha diversity, PCoA plots, and logistic regression:
+   - Logistic regression results
+      - Display our results (stunting and anemia) as a table, only use Forest plots for more than 2 categories
+   - PCoA plots:
+      - Bray Curtis: didn't take out NAs yet, not a lot of clustering
+      - Jacquard: follows the same trend
+      - Unifrac:
+      - Weighted Unifrac: follows the same trend
+   - Alpha and beta diversity analysis:
+      - Redid the same thing as last week, but looked at just stunted group for this week's analysis
+      - Have not yet redone rarefaction curve
+- Moving forward
+   - What analyses we need to get done by next week's meeting:
+      - Core microbiome analysis
+      - Indicator taxa analysis
+      - Differential abundance analysis
+   - What dataset are we using? The old one (4 groups) or the new one (stunted vs non-stunted)
+      - Use new one if we can adjust sampling depth with stunting vs non-stunting & see significance
+      - Use old one if we cannot
+    
+- Action Items:
+   - Redo stunting vs non-stunting comparison
+      - Change parameters by redoing rarefaction curve: decrease sampling depth since we are only looking at 2 variables
+         - Go with 16,888 sampling depth
+      - Redo alpha beta diversity analysis
+   - Core microbiome
+   - Indicator taxa
+   - Differential abundance
+   - Get rid of NAs from our plots
