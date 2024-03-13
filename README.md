@@ -149,3 +149,20 @@ Meeting Agenda
  
 - Most people will be working on it Friday it seems
 - Please move old files into "OLD" folder and working files into "WORKING"
+
+# 13 March 2024 Meeting 
+Weekly Update
+- Redid the rarefaction curve and decreased our sampling depth --> made new phyloseq object
+- Completed new alpha/beta diversity tests
+- Completed core microbiome and indicator taxa analyses (genus and species levels)
+- Revised proposal according to Avril's feedback
+
+Meeting Agenda
+- Review alpha/beta diversity tests
+- Review core microbiome analyses
+- Review ISA 
+- Annie spoke with Dr. Sun --> she is strongly recommending that we do a functional analysis given that we have not found any taxonomic patterns
+   - Piecrust??
+- Talk about what should be done moving forward --> have now completed all of our aims
+
+Meeting Minutes
