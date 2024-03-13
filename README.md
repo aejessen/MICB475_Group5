@@ -166,3 +166,50 @@ Meeting Agenda
 - Talk about what should be done moving forward --> have now completed all of our aims
 
 Meeting Minutes
+- Definitely use PieCrust2!
+- 1 month and 2 days until draft manuscript 😥
+- No Alpha or Beta diversity measures that are significant
+- Note that a bunch of papers for UJEMI 28 show "no significance" so it is fine if we fail to reject the null hypothesis
+- No clearly great indicator species results, but there are some that are significant
+   - Can include and just mention that the stat values are fairly low (<8)
+   - "Stunted healthy" appears to have the most notable indicator species
+   - Include them all. Though note that we don't appear to be in stunted anemic. Maybe b/c of the changes in microbiome due to anemia
+
+- What do we want our figues to be in the paper?
+   - Look at UJEMI 28 and UJEMI+ volume 9 for inspo with ones that do not have sig differences
+  
+   - Q: What are the effects of anemia and stunting on the infant gut microbiome
+   - HAVE: Logistic reg, coremicrobiome, ISA, alpha/beta div, etc. 
+
+   - Fig. 1: Logistic Regression
+      - Set the stage for the study - why are we investigating?   
+   - Fig. 2: Diversity (α/β):
+      - Tells: "No significance"
+      - We can choose to include specific alpha and beta metrics
+         - Figure out which alpha div. one is connected to core microbiome and include that for sure, the rest are optional (can put the others in supplementary)
+   - Fig. 3: Core Micro
+      - To support Fig. 2
+      - Show similarities between all the groups
+      - Print out the list of ASVs unique to stunted and healthy seperately
+   - Fig. 4: Indicator species analysis of indicator of healthy stunting
+      - "Maybe stunting has indic. sp. that are disrupted by anemia"
+         - Rationalize via the fact that maybe there are differences in anemic microbiome
+         - So look at the microbiome changes in the general anemic microbiome as compared to healthy subjects?
+      - BLAST all relevant species even if they show that they are NA or uncultured in the table
+         - So pretty much all of them that Annie found.
+   - Fig. 5: Differential Abundance Species Analysis
+      - btwn anemic and healthy to support fig. 4
+   - Fig. 5: Functional Analysis
+      - Of all 4 groups
+    
+- Rec. that we get started on results since we already have a bunch of the figures and data that we need
+- We can repurpose the intro from our
+
+- Have done for next week:
+   - Differential Abundance Analysis
+      - Code is given in module god bless Dr. Sun
+      - Start writing up results if possible
+   - Functional Analysis for sure (via PieCrust)
+      - Code is also given in module (I think) god BLESS Dr. Sun
+      - Start writing up results if possible
+   - Start writing up the results that we do have so far. 
