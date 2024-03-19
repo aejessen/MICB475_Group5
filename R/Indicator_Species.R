@@ -2,6 +2,8 @@
 install.packages("indicspecies")
 library(tidyverse)
 library(phyloseq)
+library(permute)
+library(indicspecies)
 
 #load in data
 load("~/MICB475_Group5/R/NEW_phyloseq_core/updated_phyloseq/phyloseq/ap_rare.RData")
@@ -38,5 +40,5 @@ ISA_species_tbl <- isa_mpt_species$sign %>%
   left_join(taxtable) %>%
   filter(p.value<0.05) %>% View()
 
-write.table(ISA_species_tbl, file="~/MICB475_Group5/R/NEW_ISA_species_tbl.txt")
-write.table(ISA_genus_tbl, file="~/MICB475_Group5/R/NEW_ISA_genus_tbl.txt")
+write.table(ISA_species_tbl, file="~/MICB475_Group5/R/NEW_ISA_species_tbl.tsv")
+write.table(ISA_genus_tbl, file="~/MICB475_Group5/R/NEW_ISA_genus_tbl.tsv")

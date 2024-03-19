@@ -36,4 +36,3 @@ model
 ## "Adjusted OR (95% CI) and "P-value". Alternatively, it can be presented as a 
 ## forest plot. 
 
-
