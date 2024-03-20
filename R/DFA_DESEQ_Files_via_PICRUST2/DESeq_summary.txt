@@ -1,0 +1,18 @@
+anemia variable: 
+DESeq: 0 variables with padj under 0.05
+
+stunting variable:
+DESeq: 0 variables with padj under 0.05
+	
+### Disease State things: ### 
+non-stunted healthy vs anemic:
+Stunted Healthy vs anemic:
+Anemic Stunting vs. not:
+Healthy stunting vs. not:
+Non-stunted_healthy vs. stunted anemic: (got a PCA technically at least)
+	Nothing in Deseq
+
+stunted_healthy vs. non-stunted_anemic:
+	1 category in both DFA and DESeq: L-glutamate degradation. 
+
+
