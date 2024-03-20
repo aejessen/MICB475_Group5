@@ -203,13 +203,13 @@ Meeting Minutes
       - Of all 4 groups
     
 - Rec. that we get started on results since we already have a bunch of the figures and data that we need
-- We can repurpose the intro from our
+- We can repurpose the intro from our proposal
 
 - Have done for next week:
    - Differential Abundance Analysis
       - Code is given in module god bless Dr. Sun
       - Start writing up results if possible
-   - Functional Analysis for sure (via PieCrust)
+   - Functional Analysis for sure (via PICRUST2)
       - Code is also given in module (I think) god BLESS Dr. Sun
       - Start writing up results if possible
    - Start writing up the results that we do have so far. 
