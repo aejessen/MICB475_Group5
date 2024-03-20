@@ -223,3 +223,32 @@ Meeting Agenda
 - Discuss results of some analyses (how to interpret, what to include in write-up)
    - Core microbiome analysis
    - Indicator species analysis
+ 
+Meeting Minutes
+
+Core microbiome analysis: 
+- keep as one figure
+- more differences in stunting, not much in anemia
+
+Indicator species analysis:
+- There are many species for stunted healthy, but not for others. It's possible that anemia has a larger effect on the microbiome in comparison to stunting. Could be masking the effects of stunting.
+
+- Idea: are we trying to say that anemia is decreasing microbial diversity? This could possibly explain the difference between the core microbiome analysis and indicator species.
+- Look at UJEMI paper before, it supports this idea (Pontual et al.)
+
+Differential species analysis:
+- stunted would be expected to have more than non stunted, but we don't really see anything
+- not going to use this
+
+Functional analysis:
+- Didn't talk about this
+
+Diversity analysis:
+- Important ones are related to the main question
+
+Action items:
+- Look at papers about anemia and stunting and see what they say about the microbiome
+- Try to find another analysis to tie everything together
+- Make sure we are using the right data set
+
+
