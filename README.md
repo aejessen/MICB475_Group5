@@ -166,7 +166,7 @@ Meeting Agenda
 - Talk about what should be done moving forward --> have now completed all of our aims
 
 Meeting Minutes
-- Definitely use PieCrust2!
+- Definitely use PiCrust2!
 - 1 month and 2 days until draft manuscript 😥
 - No Alpha or Beta diversity measures that are significant
 - Note that a bunch of papers for UJEMI 28 show "no significance" so it is fine if we fail to reject the null hypothesis
@@ -213,3 +213,12 @@ Meeting Minutes
       - Code is also given in module (I think) god BLESS Dr. Sun
       - Start writing up results if possible
    - Start writing up the results that we do have so far. 
+
+# 20 March 2024 
+Weekly Update
+- Began writing up results from past analyses
+- performed differential abundance analysis and PICRUSt2
+  
+Meeting Agenda
+- discuss results of some analyses (how to interpret, what to include in write-up)
+   - core microbiome analysis
