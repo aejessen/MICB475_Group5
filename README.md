@@ -220,5 +220,6 @@ Weekly Update
 - performed differential abundance analysis and PICRUSt2
   
 Meeting Agenda
-- discuss results of some analyses (how to interpret, what to include in write-up)
-   - core microbiome analysis
+- Discuss results of some analyses (how to interpret, what to include in write-up)
+   - Core microbiome analysis
+   - Indicator species analysis
