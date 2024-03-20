@@ -9,7 +9,11 @@ library(formattable)
 library(tidyr)
 
 #Make a nicer table for species visualization
-species_tbl <- read.table(file = "R/NEW_ISA_species_tbl.txt", header = TRUE)
+species_tbl <- read.table(file = "R/NEW_ISA_species_tbl.txt", header = TRUE) %>%
+  rename("Anemic_only" = "s.non.stunted_anemic",
+        "Healthy" = "s.non.stunted_healthy",
+        "Anemic_and_Stunted" = "s.stunted_anemic",
+        "Stunted_only" = "s.stunted_healthy")
 species_tbl
 
 formattable(species_tbl)
@@ -21,7 +25,11 @@ formattable(species_tbl,
             ))
 
 #Make a nicer table for genus visualization 
-genus_tbl <- read.table(file = "R/NEW_ISA_genus_tbl.txt", header = TRUE)
+genus_tbl <- read.table(file = "R/NEW_ISA_genus_tbl.txt", header = TRUE) %>%
+  rename("Anemic_only" = "s.non.stunted_anemic",
+         "Healthy" = "s.non.stunted_healthy",
+         "Anemic_and_Stunted" = "s.stunted_anemic",
+         "Stunted_only" = "s.stunted_healthy")
 genus_tbl
 
 formattable(genus_tbl)
