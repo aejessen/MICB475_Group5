@@ -251,4 +251,7 @@ Action items:
 - Try to find another analysis to tie everything together
 - Make sure we are using the right data set
 
-
+# 27 March 2024
+Meeting Agenda
+- Discuss which diversity tests to do with Dr. Sun
+- Discuss how to portray the diversity test results
