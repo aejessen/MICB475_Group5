@@ -255,3 +255,4 @@ Action items:
 Meeting Agenda
 - Discuss which diversity tests to do with Dr. Sun
 - Discuss how to portray the diversity test results. Ex. Should I use my R graphs and QIIME 2 significance data? Do we just say in the paper: there's no significance?
+- Discuss presentation prep and manuscript writing
