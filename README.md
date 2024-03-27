@@ -256,3 +256,24 @@ Meeting Agenda
 - Discuss which diversity tests to do with Dr. Sun
 - Discuss how to portray the diversity test results. Ex. Should I use my R graphs and QIIME 2 significance data? Do we just say in the paper: there's no significance?
 - Discuss presentation prep and manuscript writing
+
+Meeting Minutes
+- Try diversity analyses in R
+- Not doing a figure for logistic regression
+- Run diversity statistical analysis for Chao1
+- Ask Erica what's the parameters to the core microbiome photos
+- All results seem to support this: anemia seems to be skewing the data for stunting
+- Perhaps put PiCrust in the supplemental? Up to us
+
+Figures:
+1. Heat map (mosaic plot) for logistic regression (look up figure on Google: Chi-square test of independence)
+2. Just the Chao1, and Shannon and one beta diversity in the supplemental
+3. Core microbiome: the one that shows that there's 25 unique to the stunted
+4. Table 1: indicator taxa species (the specific 22 for stunted healthy)
+5. DeSeq: just for 2 groups - stunting vs non stunted, one for healthy, one for anemic
+
+Action items:
+1. See if the 22 species in indicator taxa species have literature about them regarding stunting and our research
+2. Chao1 diversity analyses in R - Use Wilcoxon
+3. Indicator taxa species: BLAST ASVs in the ref seqs, and it'll give you taxonomic levels
+4. Figure out how many individuals are in each of the 4 groups for logistic regression: try and create a figure (mosaic plot)
