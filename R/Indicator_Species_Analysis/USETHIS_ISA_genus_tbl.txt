@@ -1,0 +1,24 @@
+"ASV" "s.non-stunted_anemic" "s.non-stunted_healthy" "s.stunted_anemic" "s.stunted_healthy" "index" "stat" "p.value" "Domain" "Phylum" "Class" "Order" "Family" "Genus" "Species"
+"1" "74d519816d4cfb9cf4ec9605f76301d6" 0 0 0 1 4 0.505665886107558 0.01 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Peptostreptococcales-Tissierellales" "f__Anaerovoracaceae" "g__Family_XIII_UCG-001" "s__uncultured_bacterium"
+"2" "9ee9d7f1e7a96963f1ee2668f858fced" 0 0 0 1 4 0.466924956372035 0.01 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Peptostreptococcales-Tissierellales" "f__Peptostreptococcales-Tissierellales" "g__Anaerococcus" NA
+"3" "336328788c4a3075fe349be1400f9e44" 0 0 0 1 4 0.422953586501433 0.045 "d__Bacteria" "p__Firmicutes" "c__Bacilli" "o__Lactobacillales" "f__Leuconostocaceae" "g__Leuconostoc" NA
+"4" "ea8dfb14ae5ac50f8dce12f0dfcbc655" 0 0 0 1 4 0.494190758805887 0.01 "d__Bacteria" "p__Bacteroidota" "c__Bacteroidia" "o__Bacteroidales" "f__Dysgonomonadaceae" "g__Dysgonomonas" "s__Dysgonomonas_capnocytophagoides"
+"5" "7c3550e521d8dd035366eac5c64f2e47" 1 1 1 0 11 0.668526270464876 0.02 "d__Bacteria" "p__Actinobacteriota" "c__Coriobacteriia" "o__Coriobacteriales" "f__Atopobiaceae" "g__Libanicoccus" "s__human_gut"
+"6" "871b99772b7ead3ed8a217f566729af6" 0 0 0 1 4 0.476213470886934 0.035 "d__Bacteria" "p__Actinobacteriota" "c__Coriobacteriia" "o__Coriobacteriales" "f__Coriobacteriales_Incertae_Sedis" "g__uncultured" "s__gut_metagenome"
+"7" "db30710da37e69642cc4285ba7316773" 0 0 0 1 4 0.523722936566382 0.005 "d__Bacteria" "p__Firmicutes" "c__Bacilli" "o__Erysipelotrichales" "f__Erysipelotrichaceae" "g__Merdibacter" "s__uncultured_bacterium"
+"8" "bc6a59a66d65219dc321649375b9be2e" 0 0 0 1 4 0.418535509227595 0.04 "d__Bacteria" "p__Firmicutes" "c__Bacilli" "o__Erysipelotrichales" "f__Erysipelotrichaceae" "g__Faecalitalea" "s__Faecalitalea_cylindroides"
+"9" "6d4fe16838ce84397bd418e10a2616d0" 0 0 0 1 4 0.349927106111883 0.03 "d__Bacteria" "p__Firmicutes" "c__Bacilli" "o__Erysipelotrichales" "f__Erysipelatoclostridiaceae" "g__Candidatus_Stoquefichus" "s__Candidatus_Stoquefichus"
+"10" "40404b487981af753c5999cef891e050" 0 0 0 1 4 0.408734465507923 0.04 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Christensenellales" "f__Christensenellaceae" "g__Christensenellaceae_R-7_group" NA
+"11" "504efe2f63f610a0f92e8cd040e2f916" 0 0 0 1 4 0.492757654601657 0.015 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Oscillospirales" "f__Ruminococcaceae" "g__Negativibacillus" "s__uncultured_bacterium"
+"12" "0c053c38cdbe319bdd539363e59dcc31" 0 0 0 1 4 0.476266189851541 0.02 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Oscillospirales" "f__Oscillospiraceae" "g__Colidextribacter" "s__uncultured_Clostridia"
+"13" "4f44372fa9b9049b54114fdfae5e5d8d" 0 0 0 1 4 0.365016445121756 0.045 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Oscillospirales" "f__Oscillospiraceae" "g__UCG-005" NA
+"14" "bbbf807fccaf8b5896d4eb82f2ca7cb6" 0 0 0 1 4 0.558892348864825 0.035 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Lachnospirales" "f__Lachnospiraceae" "g__[Eubacterium]_hallii_group" NA
+"15" "4294e9573aa2dbc0222f54b285824bce" 0 0 0 1 4 0.509066396728793 0.005 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Lachnospirales" "f__Lachnospiraceae" "g__[Eubacterium]_ruminantium_group" "s__uncultured_bacterium"
+"16" "367fc85e6f4ccea4f7821093eb8c0564" 0 0 0 1 4 0.484371100660421 0.015 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Lachnospirales" "f__Lachnospiraceae" "g__Lachnospiraceae_UCG-001" NA
+"17" "4f839b8ce253647338ad6ec2c58aaa85" 0 0 0 1 4 0.482101528275319 0.015 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Lachnospirales" "f__Lachnospiraceae" "g__[Eubacterium]_ventriosum_group" NA
+"18" "892adc3bb7b3b0dbca1a6ad2657e0415" 0 0 0 1 4 0.512662013317635 0.005 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Lachnospirales" "f__Lachnospiraceae" "g__Frisingicoccus" NA
+"19" "bc9f5044e47b189552e9b5746eccd751" 0 0 0 1 4 0.464085478199729 0.015 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Lachnospirales" "f__Lachnospiraceae" "g__Lachnospiraceae_ND3007_group" "s__metagenome"
+"20" "b7423dd718c9033644219e0f95af0aba" 0 0 0 1 4 0.472198774993448 0.02 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Lachnospirales" "f__Lachnospiraceae" "g__Marvinbryantia" NA
+"21" "081eb233139933b97350274f74384090" 0 0 0 1 4 0.4786016413187 0.025 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Lachnospirales" "f__Lachnospiraceae" "g__CAG-56" "s__uncultured_bacterium"
+"22" "807d2d0b0f1f8eb790d934ff2a891297" 0 0 0 1 4 0.488405009522278 0.015 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Lachnospirales" "f__Lachnospiraceae" "g__Lactonifactor" NA
+"23" "d36c7fad0a492ec8635894778c85d7c5" 0 0 0 1 4 0.454410237696922 0.015 "d__Bacteria" "p__Firmicutes" "c__Clostridia" "o__Lachnospirales" "f__Lachnospiraceae" "g__uncultured" "s__uncultured_Eubacterium"
