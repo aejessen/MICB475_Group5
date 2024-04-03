@@ -283,3 +283,13 @@ Meeting Agenda
 - Discuss DeSeq results
 - Plan presentation slides
 - Discuss Chao1 results
+Meeting Notes
+- Volcano plots
+     - seems to go with the rest of the story... anemia leads to a dysbiotic microbiome
+     - have 4 plots for the figure (anemic, not anemic, bar plots, volcano)
+- Shannon + beta diversity together in one supplemental
+- ISA glom to genus only, since the species are mostly uncultured
+- Still use the significant value for Chao1
+      - "approaching significance" for 0.06
+     - hard to make conclusions here... differences could be due to anemia
+- Meeting on monday at 12 to go over slides
