@@ -293,3 +293,5 @@ Meeting Notes
       - "approaching significance" for 0.06
      - hard to make conclusions here... differences could be due to anemia
 - Meeting on monday at 12 to go over slides
+- No .zip files in the repo
+      - Group files into scripts and outputs
