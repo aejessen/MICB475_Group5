@@ -277,3 +277,9 @@ Action items:
 2. Chao1 diversity analyses in R - Use Wilcoxon
 3. Indicator taxa species: BLAST ASVs in the ref seqs, and it'll give you taxonomic levels
 4. Figure out how many individuals are in each of the 4 groups for logistic regression: try and create a figure (mosaic plot)
+
+# 3 April 2024
+Meeting Agenda
+- Discuss DeSeq results
+- Plan presentation slides
+- Discuss Chao1 results
