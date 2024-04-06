@@ -1,0 +1,67 @@
+library(phyloseq)
+library(ape)
+library(dplyr)
+library(tidyverse)
+library(picante)
+library(ggsignif)
+
+#### Load in RData ####
+load("ap_rare.RData")
+load("ap_final.RData")
+
+#### Renaming values in the disease-state column of the metadata ####
+sample_metadata <- sample_data(ap_rare)
+
+unique(sample_metadata$disease_state)
+
+old_names <- c("non-stunted_healthy", "non-stunted_anemic", "stunted_healthy", "stunted_anemic")
+new_names <- c("Non-stunted Healthy", "Non-stunted Anemic", "Stunted Healthy", "Stunted Anemic")
+
+for (i in seq_along(old_names)) {
+  sample_metadata$disease_state <- ifelse(sample_metadata$disease_state == old_names[i], new_names[i], sample_metadata$disease_state)
+}
+
+sample_data(ap_rare) <- sample_metadata
+
+#### Shannon alpha diversity plot ######
+
+gg_shannon <- plot_richness(ap_rare, x = "disease_state", measures = c("Shannon")) +
+  xlab("Disease State") + geom_boxplot()
+gg_shannon
+
+
+#### Bray Curtis beta diversity plot #####
+bc_dm <- distance(ap_rare, method="bray")
+
+pcoa_bc <- ordinate(ap_rare, method="PCoA", distance=bc_dm)
+
+plot_ordination(ap_rare, pcoa_bc, color = "disease_state")
+
+gg_pcoa_bc <- plot_ordination(ap_rare, pcoa_bc, color = "disease_state") +
+  labs(col = "Disease State") + ggtitle("Bray Curtis") 
+gg_pcoa_bc
+
+#### Chao1 significance test ####
+
+alphadiv <- estimate_richness(ap_rare)
+samp_dat <- sample_data(ap_rare)
+samp_dat_wdiv <- data.frame(samp_dat, alphadiv)
+
+kruskal_obs <- kruskal.test(Chao1 ~ `disease_state`, data = samp_dat_wdiv)
+kruskal_obs
+
+lm_chao1_vs_disease_state <- lm(Chao1 ~ `disease_state`, data=samp_dat_wdiv)
+chao1_vs_disease_state <- aov(lm_chao1_vs_disease_state)
+summary(chao1_vs_disease_state)
+tukey_sum_chao1 <- TukeyHSD(chao1_vs_disease_state)
+tukey_sum_chao1
+
+#### Chao1 plot ####
+
+gg_chao1 <- ggplot(samp_dat_wdiv, aes(x=`disease_state`, y= Chao1)) +
+  geom_boxplot() +
+  geom_signif(comparisons = list(c("Stunted Healthy","Non-stunted Anemic")),
+              y_position = c(150),
+              annotations = c("*")) +
+  xlab("Disease State")
+gg_chao1
