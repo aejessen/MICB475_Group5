@@ -295,3 +295,8 @@ Meeting Notes
 - Meeting on monday at 12 to go over slides
 - No .zip files in the repo
       - Group files into scripts and outputs
+
+# 7 April 2024
+Meeting Agenda
+- Go over oral presentation slides
+- Decide whether to have a meeting on Wednesday
