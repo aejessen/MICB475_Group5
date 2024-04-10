@@ -1,0 +1,58 @@
+# Calculate alpha- and beta-diversity metrics
+qiime diversity core-metrics-phylogenetic \
+  --i-phylogeny rooted-tree.qza \
+  --i-table table-no-mitochondria-no-chloroplast.qza \
+  --p-sampling-depth 22645 \
+  --m-metadata-file anemia_metadata_updated.txt \
+  --output-dir core-metrics-results
+
+# Calculate alpha-group-significance
+qiime diversity alpha-group-significance \
+  --i-alpha-diversity core-metrics-results/faith_pd_vector.qza \
+  --m-metadata-file anemia_metadata_updated.txt \
+  --o-visualization core-metrics-results/faith-pd-group-significance.qzv
+
+qiime diversity alpha-group-significance \
+  --i-alpha-diversity core-metrics-results/shannon_vector.qza \
+  --m-metadata-file anemia_metadata_updated.txt \
+  --o-visualization core-metrics-results/shannon-group-significance.qzv
+
+qiime diversity alpha-group-significance \
+  --i-alpha-diversity core-metrics-results/evenness_vector.qza \
+  --m-metadata-file anemia_metadata_updated.txt \
+  --o-visualization core-metrics-results/evenness-group-significance.qzv
+
+qiime diversity alpha-group-significance \
+  --i-alpha-diversity core-metrics-results/observed_features_vector.qza \
+  --m-metadata-file anemia_metadata_updated.txt \
+  --o-visualization core-metrics-results/observed-features-group-significance.qzv
+  
+# Calculate beta-group-significance
+qiime diversity beta-group-significance \
+  --i-distance-matrix core-metrics-results/unweighted_unifrac_distance_matrix.qza \
+  --m-metadata-file anemia_metadata_updated.txt \
+  --m-metadata-column disease_state \
+  --o-visualization core-metrics-results/unweighted-unifrac-disease-state-significance.qzv \
+  --p-pairwise
+
+qiime diversity beta-group-significance \
+  --i-distance-matrix core-metrics-results/weighted_unifrac_distance_matrix.qza \
+  --m-metadata-file anemia_metadata_updated.txt \
+  --m-metadata-column disease_state \
+  --o-visualization core-metrics-results/weighted-unifrac-disease-state-significance.qzv \
+  --p-pairwise
+
+qiime diversity beta-group-significance \
+  --i-distance-matrix core-metrics-results/jaccard_distance_matrix.qza \
+  --m-metadata-file anemia_metadata_updated.txt \
+  --m-metadata-column disease_state \
+  --o-visualization core-metrics-results/jaccard-disease-state-significance.qzv \
+  --p-pairwise
+
+qiime diversity beta-group-significance \
+  --i-distance-matrix core-metrics-results/bray_curtis_distance_matrix.qza \
+  --m-metadata-file anemia_metadata_updated.txt \
+  --m-metadata-column disease_state \
+  --o-visualization core-metrics-results/bray-curtis-disease-state-significance.qzv \
+  --p-pairwise
+
