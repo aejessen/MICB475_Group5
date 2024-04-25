@@ -1,8 +1,10 @@
 # MICB475_Group5
 
+
 # 31 Jan 2024 Meeting #1 Notes
 Must have dataset and research question for our project set by next meeting on the 7th of Feb.
 Must have agenda for next meeting created by us.
+
 
 # 7 Feb 2024 Meeting Agenda
 1. Discuss our research question options:
@@ -13,6 +15,7 @@ Must have agenda for next meeting created by us.
 2. Is this feasible? Have other teams done this before?
 3. Discuss team proposal plans
 4. Ask Evelyn about documentation procedures
+
 
 # 7 Feb 2024 Meeting Minutes
 Among our ideas, we chose to look at the relationship between stunted/non-stunted in anemic vs. healthy children
@@ -37,6 +40,7 @@ Proposal-relevant items:
 Action Items: 
 - Proposal planning --> generate some .qzv files and such
 - Initial processing to make the new metadata file
+
 
 # 12 Feb 2024 Meeting Minutes
 1. Respond to Simanpreet with Github link and research question
@@ -73,6 +77,7 @@ Meeting Minutes
 - Starting giving a little progress report before the agenda so they know what we have done!!
 - Generate alpha and beta diversity figures before next meeting (when we come back from reading break)
 
+
 # 27 Feb 2024 
 Weekly Update
 - Finished proposal!
@@ -97,6 +102,7 @@ Meeting Notes
         - do the logistic regression with stunting
         - do stunted/non-stunted for alpha/beta
         - pcoa plot
+
     
 # 4 March 2024
 Weekly Update 
@@ -112,6 +118,7 @@ Meeting Agenda
   - Best way to visualize these? Forest plot?
 - Discuss doing the revisions for the proposal
 - Discuss approach for manuscript (how we want to move through the sections, which sections should be done first->last, who wants to do what)
+
 
 - # 6 March 2024 Meeting Minutes
 - Feedback from Proposal: Avril suggested that results were not novel enough, but we already did the analysis, so we should keep it in & consider adding another aim (e.g., differential abundance analysis)
@@ -149,6 +156,7 @@ Meeting Agenda
  
 - Most people will be working on it Friday it seems
 - Please move old files into "OLD" folder and working files into "WORKING"
+
 
 # 13 March 2024 Meeting 
 Weekly Update
@@ -214,6 +222,7 @@ Meeting Minutes
       - Start writing up results if possible
    - Start writing up the results that we do have so far. 
 
+
 # 20 March 2024 
 Weekly Update
 - Began writing up results from past analyses
@@ -251,6 +260,7 @@ Action items:
 - Try to find another analysis to tie everything together
 - Make sure we are using the right data set
 
+
 # 27 March 2024
 Meeting Agenda
 - Discuss which diversity tests to do with Dr. Sun
@@ -278,6 +288,7 @@ Action items:
 3. Indicator taxa species: BLAST ASVs in the ref seqs, and it'll give you taxonomic levels
 4. Figure out how many individuals are in each of the 4 groups for logistic regression: try and create a figure (mosaic plot)
 
+
 # 3 April 2024
 Meeting Agenda
 - Discuss DeSeq results
@@ -295,6 +306,7 @@ Meeting Notes
 - Meeting on monday at 12 to go over slides
 - No .zip files in the repo
       - Group files into scripts and outputs
+
 
 # 7 April 2024
 Meeting Agenda
