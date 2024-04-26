@@ -48,9 +48,18 @@ prune_taxa(not_stunted_ASVs,ap_RA) %>%
   plot_bar(fill="Genus") +
   facet_wrap(.~`stunting`, scales ="free")
 
+                                 
 # venn diagram
-core_list_1_10 <- list(Anemic = anemic_ASVs, Not_Anemic = not_anemic_ASVs, Stunted = stunted_ASVs, Not_Stunted = not_stunted_ASVs)
+                                 
+core_list_0_20 <- list(Anemic = anemic_ASVs, Not_Anemic = not_anemic_ASVs, Stunted = stunted_ASVs, Not_Stunted = not_stunted_ASVs)
 
-# draft venn with 0 detection and 0.7 prevalence
-draft_venn_1_10 <- ggVennDiagram(x = core_list_1_10)
-ggsave("venn_1_10.png", draft_venn_1_10)
+# draft venn with 0 detection and 0.2 prevalence
+                                 
+draft_venn_0_20 <- ggVennDiagram(x = core_list_0_20,
+                                 category.names = c("Anemia", "Healthy", "Stunted", "Non-Stunted")) +
+  scale_fill_gradient(low = "#F4FAFE", high = "#4981BF")
+
+                                 
+draft_venn_0_20
+
+ggsave("venn_0_20_Apr11.png", draft_venn_0_20, height=14, width=10)
